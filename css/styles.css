@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    width: 1512px;
+    height: 4360px;
+    background: linear-gradient(rgba(17, 16, 24, 1), rgba(17, 19, 24, 0.8500000238418579));
+    opacity: 1;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 152.5%;
+    letter-spacing: -0.015em;
+    color: #FFFFFF;
+}
+
+.logo {
+    width: 217px;
+    height: 68px;
+    left: 108px;
+    top: 42px;
+}
+
+.user {
+    left: 76.39%;
+    right: 21.83%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.login {
+    width: 121px;
+    height: 41px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.button_lang {
+    display: table !important;
+    width: 80px;
+    height: 55px;
+    background: #676C7C;
+    border-radius: 9px;
+}
+
+.flag {
+    display: table-cell;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.language {
+    display: table-cell;
+    width: 50px;
+    height: 20px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+.arrow_icon {
+    display: table-cell;
+    transition: all 0.2s;
+    vertical-align: middle;
+}
+
+.mynav {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-flex;
+    text-align: center;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mynav ul {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.mynav li {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.mynav li:not(:last-child) {
+    margin-right: 20px;
+}
+
+.mynav li:nth-child(6),
+.mynav li:nth-child(7) {
+    background: #676C7C;
+    border-radius: 9px;
+}
+
+.mynav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+}
+
+.mynav li:nth-child(2):hover,
+.mynav li:nth-child(3):hover,
+.mynav li:nth-child(4):hover,
+.mynav li:nth-child(5):hover {
+    border-bottom: 4px solid white;
+}
+
+.lasts {
+    position: absolute;
+    width: 1294px;
+    height: 654px;
+    left: 108px;
+    top: 150px;
+    background: url(https://image.api.playstation.com/vulcan/ap/rnd/202208/0921/3XopdGAJGRy3xNQKnQDvaCRs.png) center;
+    background-size: 100%;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.4));
+}
+
+.hogwarts_legacy {
+    position: absolute;
+    width: 394px;
+    height: 179px;
+    left: 100px;
+    top: 100px;
+}
+
+.game_description {
+    position: absolute;
+    width: 420px;
+    height: 160px;
+    left: 100px;
+    top: 300px;
+    color: #F1F6FF;
+}
+
+.buy_button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 187px;
+    height: 57px;
+    left: 100px;
+    top: 550px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid #F1F6FF;
+    border-radius: 13px;
+    font-size: 24px;
+    color: #F1F6FF;
+}
+
+.buy_button:hover {
+    background-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.container {
+    position: absolute;
+    width: 1294px;
+    height: 89px;
+    left: 108px;
+    top: 850px;
+    background: rgba(217, 217, 217, 0.04);
+    border: 1px solid #F1F6FF;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.finder {
+    width: 100%;
+}
+
+.finder_outer {
+    display: flex;
+    padding: 1.5rem 2rem;
+}
+
+.finder_inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex: 1;
+}
+
+.finder_form {
+    flex: 1;
+    height: calc(100% + 3rem);
+}
+
+.finder_input {
+    height: calc(100% + 3rem);
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.33);
+    letter-spacing: 0.75px;
+}
+
+.finder_icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 1rem;
+    transition: all 0.2s;
+    position: relative;
+    background: url(../assets/icon_search.png) no-repeat;
+    background-size: 100%;
+}
+
+.new_games {
+    position: absolute;
+    width: 1294px;
+    height: 1000px;
+    left: 108px;
+    top: 1000px;
+    margin: auto;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.new_games ul {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.new_games li:not(:last-child) {
+    margin-right: 45px;
+}
+
+.games_box {
+    width: 287px;
+    height: 448px;
+    top: 100px;
+    background: rgba(217, 217, 217, 0.04);
+    border: 1px solid #F1F6FF;
+    border-radius: 40px;
+}
+
+.games_box img {
+    width: 226.18px;
+    height: 304.09px;
+    margin: 20px 20px 0px 20px ;
+}
+
+.game_type {
+    margin-left: 25px;
+    float: left;
+    text-align: start;
+    color: rgba(241, 246, 255, 0.77);
+}
+
+.game_name{
+    margin-left: 25px;
+    width: 250px;
+    height: 37px;
+    float: left;
+    text-align: start;
+    font-weight: 600;
+    font-size: 29px;
+    color: #F1F6FF;
+}
+.game_price{
+    margin-left: 25px;
+    float: left;
+    text-align: start;
+    color: #F1F6FF;
+}
+
+.popular {
+    position: absolute;
+    width: 1294px;
+    height: 1000px;
+    left: 108px;
+    top: 1800px;
+    margin: auto;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+.popular ul {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.popular li:not(:last-child) {
+    margin-right: 45px;
+}
